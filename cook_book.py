@@ -5,7 +5,6 @@ class Cook_book:
 
 # Задание №1
   def basic_recipes(self):
-    #cook_book = {}
     with open('cook_book.txt', 'r', encoding='utf-8') as f:
       x = 0
       key = ''
